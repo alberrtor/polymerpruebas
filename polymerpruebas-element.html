@@ -2,35 +2,14 @@
 
 <dom-module id="polymerpruebas-element">
   <template>
-    <style>
-      :host {
-        display: block;
-      }
-    </style>
-    <h2>Hello [[prop1]]!</h2>
+    
+
+    <h2>Prueba Polymer</h2>
   </template>
 
   <script>
-    /**
-     * `polymerpruebas-element`
-     * prueba
-     *
-     * @customElement
-     * @polymer
-     * @demo demo/index.html
-     */
-    class PolymerpruebasElement extends Polymer.Element {
-      static get is() { return 'polymerpruebas-element'; }
-      static get properties() {
-        return {
-          prop1: {
-            type: String,
-            value: 'polymerpruebas-element'
-          }
-        };
-      }
-    }
-
-    window.customElements.define(PolymerpruebasElement.is, PolymerpruebasElement);
+    Polymer({
+      is: 'polymerpruebas-element'
+    });
   </script>
 </dom-module>
